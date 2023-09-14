@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DistorLineal - Standalone Plugin", "DistorLineal_StandalonePlugin.vcxproj", "{1AC03CB5-2C40-3781-602D-3A9EA08464C8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A90CB8FB-8833-702D-5702-654F372E4B35} = {A90CB8FB-8833-702D-5702-654F372E4B35}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DistorLineal - VST3", "DistorLineal_VST3.vcxproj", "{28C68B52-BCB7-63D7-BB57-EB4684029A2E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A90CB8FB-8833-702D-5702-654F372E4B35} = {A90CB8FB-8833-702D-5702-654F372E4B35}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DistorLineal - Shared Code", "DistorLineal_SharedCode.vcxproj", "{A90CB8FB-8833-702D-5702-654F372E4B35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28C68B52-BCB7-63D7-BB57-EB4684029A2E}.Debug|x64.ActiveCfg = Debug|x64
+		{28C68B52-BCB7-63D7-BB57-EB4684029A2E}.Debug|x64.Build.0 = Debug|x64
+		{28C68B52-BCB7-63D7-BB57-EB4684029A2E}.Release|x64.ActiveCfg = Release|x64
+		{28C68B52-BCB7-63D7-BB57-EB4684029A2E}.Release|x64.Build.0 = Release|x64
+		{1AC03CB5-2C40-3781-602D-3A9EA08464C8}.Debug|x64.ActiveCfg = Debug|x64
+		{1AC03CB5-2C40-3781-602D-3A9EA08464C8}.Debug|x64.Build.0 = Debug|x64
+		{1AC03CB5-2C40-3781-602D-3A9EA08464C8}.Release|x64.ActiveCfg = Release|x64
+		{1AC03CB5-2C40-3781-602D-3A9EA08464C8}.Release|x64.Build.0 = Release|x64
+		{A90CB8FB-8833-702D-5702-654F372E4B35}.Debug|x64.ActiveCfg = Debug|x64
+		{A90CB8FB-8833-702D-5702-654F372E4B35}.Debug|x64.Build.0 = Debug|x64
+		{A90CB8FB-8833-702D-5702-654F372E4B35}.Release|x64.ActiveCfg = Release|x64
+		{A90CB8FB-8833-702D-5702-654F372E4B35}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
